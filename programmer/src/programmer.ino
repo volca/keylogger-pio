@@ -2,7 +2,7 @@
 
 /**************************************************
  * Simple pass-through serial flash programmer 
- * programming the ESP8266 by an Arduino
+ * programming the ESP32 by an Arduino
  * 
  * This resembles the comfortable DTS controlled 
  * programming mode one have with an FTDI or similiar
@@ -29,12 +29,6 @@
  * GND      GND
  * 
  */
-
-void serial1Flush(){
-  while(Serial1.available() > 0) {
-    (void)Serial1.read();
-  }
-}
 
 void setup() {
     Serial1.begin(115200);
