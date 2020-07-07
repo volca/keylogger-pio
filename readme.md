@@ -6,6 +6,16 @@
 * Open command line window. Change directory to `keylogger-pio`
 * Run `flash.bat` or `./flash.sh` to program 32u4 and esp32-pico
 
+### How To Wire ESP Flasher And Keylogger
+
+ESP Flasher with 1.27mm pins
+
+![esp flasher](images/esp-flasher.jpg)
+
+Wire ESP Flasher And Keylogger
+
+![keylogger](images/keylogger-wired.jpg)
+
 ### About The Sketches
 
 Sketch | About
