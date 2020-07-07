@@ -1,5 +1,6 @@
 import serial
 import sys
+import subprocess
 import serial.tools.list_ports
 from time import sleep
 
